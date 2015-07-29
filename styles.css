@@ -1,0 +1,56 @@
+/* Most of the following styles were found at https://developers.google.com/maps/documentation/javascript/examples/map-geolocation */
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	height: 95%;
+	margin: 0 5%;
+	background-color: gray;
+
+	-webkit-box-shadow: 5px 3px 5px black;
+	   -moz-box-shadow: 5px 3px 5px black;
+	        box-shadow: 5px 3px 5px black;
+}
+
+#header {
+	margin-top: .5em;
+	padding-top: 1em;
+}
+
+#header > h1 {
+	text-align: center;
+}
+
+#map-canvas {
+	height: 85%;
+	margin: 1em 2.5%;
+	padding: 0;
+}
+
+@media (max-width: 600px) {
+	body {
+		overflow: hidden;
+		background-color: gray;
+	}
+
+	#wrapper {
+		height: 100%;
+
+		-webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		        box-shadow: none;
+	}
+
+	#header {
+		display: none;
+	}
+
+	#map-canvas {
+		height: 95%;
+		margin: 1em;
+	}
+}

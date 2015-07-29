@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.horner.jonathan.lab09_tracker" version="0.0.1"
+		xmlns:gap="http://phonegap.com/ns/1.0">
+	<name>Tracker</name>
+	<description>Jonathan Horner's Lab 9 Tracker</description>
+	<author href="" email="hornerjn@mail.uc.edu">Jonathan Horner</author>
+	<gap:platform name="android" />
+</widget>

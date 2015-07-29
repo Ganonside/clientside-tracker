@@ -1,5 +1,7 @@
 /* Most of the following styles were found at https://developers.google.com/maps/documentation/javascript/examples/map-geolocation */
 
+/* This stylesheet is only meant for mobile devices */
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -46,6 +48,5 @@ html, body {
 	#map-canvas {
 		height: 90%;
 		margin: 1em;
-		/* padding: 1em 1em; */
 	}
 }
